@@ -20,6 +20,11 @@ import simpleBlockContent from './objects/simpleBlockContent'
 import * as plugs from './plugs'
 import plugDefaultFields from './plugs/_plugDefaultFields'
 
+//Test
+import user from './documents/user'
+import jobTitle from './documents/jobTitle'
+
+
 // Object types
 import { instagram, videoEmbed } from './objects/embeds'
 import cta from './objects/cta'
@@ -62,6 +67,8 @@ export default createSchema({
       videoEmbed,
       bodyPortableText,
       excerptPortableText,
+      user,
+      jobTitle
     ])
     .concat(allPlugs),
 })
